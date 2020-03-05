@@ -1,3 +1,5 @@
+/* positioning and color of the website background */
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -8,13 +10,14 @@ body {
     background-color: #d9dcd6;
 }
 
+/* header positioning and font style and color */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*changes size and position of the logo in the navigation bar */
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,6 +27,7 @@ body {
     color: #d9dcd6;
 }
 
+/* positioning of the links in the navigation bar */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -45,11 +49,12 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* font size of the main and left content of the page */
 p {
     font-size: 16px;
 }
 
+/*positioning of the top header image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -65,13 +70,13 @@ p {
 }
 
 
-
+/* position  and size of the main content blocks */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/*positioning and font of content on the right*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -96,7 +101,7 @@ p {
 }
 
 
-
+/* positioning of the images on right*/
 
 .benefit-lead img, .benefit-brand img, .benefit-cost img   {
     display: block;
@@ -104,6 +109,7 @@ p {
     max-width: 150px;
 }
 
+/* changes the position of the main cinent and color of the font */
 
 
 .search-engine-optimization, .online-reputation-management ,.social-media-marketing {
@@ -115,21 +121,21 @@ p {
     color: #ffffff;
 }
 
-
+/* image size of the main conent */
 
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img   {
     max-height: 200px;
 }
 
 
-
+/* height of the content from the header and font size */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2   {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 
-
+/* footer positioning and font */
 .footer {
     padding: 30px;
     clear: both;
